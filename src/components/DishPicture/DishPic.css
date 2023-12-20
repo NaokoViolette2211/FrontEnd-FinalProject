@@ -1,0 +1,33 @@
+.custom-label {
+  font-size: 24px;
+  padding-bottom: 5px;
+  color: #684618;
+}
+
+.choose-file-btn {
+  margin-left: 0;
+}
+
+.file-selected {
+  background-color: #aaa;
+}
+
+.dish-file-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-wrap: wrap;
+  padding-right: 4px;
+  font-size: 24px;
+}
+
+.file-exists::before{
+  content: '●';
+  margin-right: 8px;
+}
+
+.file-name {
+  font-size: 24px;
+}
+
+

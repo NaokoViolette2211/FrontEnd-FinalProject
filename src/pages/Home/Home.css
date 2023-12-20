@@ -1,0 +1,18 @@
+main {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  background-image: url("../../assets/img/meals.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.main-title {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  color: white;
+}

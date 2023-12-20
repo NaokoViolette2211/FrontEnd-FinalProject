@@ -1,0 +1,35 @@
+header {
+  width: 100%;
+  background-color: #ADA34E;
+  
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #aaa;
+}
+
+.header-title > a{
+  color: #fff;
+
+} 
+
+nav > ul {
+  display: flex;
+}
+
+nav > ul > li > a{
+  color: #fff;
+}
+
+.header-li {
+  padding: 10px 20px;
+  border: 1px solid rgb(104, 70, 25);
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #776871;
+}
+
+.header-li-right {
+  margin-left: 10px;
+}

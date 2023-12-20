@@ -1,0 +1,89 @@
+.app-container {
+  width: 100%;
+}
+
+.viewRecipe-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: none;
+  display: flex;
+}
+
+.viewMode, .editMode {
+  display: flex;
+  width: 100%;
+}
+
+.viewRecipe-left {
+  width: 30%;
+  padding: 4px;
+}
+.dishName {
+  font-size: 40px;
+  color: #D18924;
+}
+.viewRecipe-pic-container {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.dish-img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.ingredients-text {
+  font-size: 32px;
+  text-decoration: underline;
+  text-decoration-color: #D18924;
+  text-decoration-thickness: 8px;
+  text-underline-offset: 8px;
+  text-decoration-skip-ink: none;
+  margin: 0;
+  margin-top: 8px;
+}
+
+.ingredient-list-container {
+  padding-left: 10px;
+}
+.ingredient {
+  font-size: 32px;
+}
+.ingredient::before {
+  content: '●';
+  margin-right: 8px;  
+}
+.directions {
+  font-size: 32px;
+  text-decoration: underline;
+  text-decoration-color: #D18924;
+  text-decoration-thickness: 8px;
+  text-underline-offset: 8px;
+  text-decoration-skip-ink: none;
+}
+.direction-list-container {
+  counter-reset: textareaCounter 0;
+}
+.direction {
+  font-size: 32px;
+  counter-increment: textareaCounter;
+}
+.direction::before {
+  content: counter(textareaCounter) ". ";
+  margin-right: 8px;
+}
+.viewRecipe-right {
+  width: 100%;
+  padding: 8px;
+}
+
+.save-edit-btn {
+  text-align: right;
+}
+

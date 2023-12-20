@@ -1,0 +1,34 @@
+.app-container {
+  margin: 0;
+  height: 100vh;
+  /* overflow: auto; */
+}
+.add-recipe-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: none;
+  display: flex;
+  background-color: #FDFFFC;
+
+}
+
+.add-recipe-left {
+  padding: 4px;
+  width: 40%;
+}
+
+.error-msg {
+  margin: 0;
+  padding-left: 4px;
+  color: red;
+  display: none;
+}
+
+.add-recipe-right {
+  width: 100%;
+  padding: 8px;
+}
+.save-recipe-btn-container {
+  text-align: right;
+}
+

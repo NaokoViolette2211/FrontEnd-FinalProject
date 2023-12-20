@@ -1,0 +1,54 @@
+.app-container {
+  margin: 0;
+  height: 100vh;
+}
+
+header {
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #aaa;
+}
+
+.saved-recipe-title {
+  padding: 8px;
+  font-size: 32px;
+}
+
+.saved-recipe-main {
+  position: relative;
+  height: 100%;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: 8px;
+  background-color: #FDFFFC;
+}
+
+.card-container {
+  padding: 8px;
+  display: flex;
+  justify-content:left;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.card {
+  margin-top: 8px;
+
+  width: 15%;
+}
+
+.no-image {
+  background-color: #aaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.delete-btn-container{
+  display: flex;
+  justify-content: right;
+}
